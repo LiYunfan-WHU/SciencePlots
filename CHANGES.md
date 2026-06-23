@@ -5,7 +5,7 @@ Bugfixes
 - Fix `matplotlib==3.11` compatibility, where `plt.style.core` namespace was refactored into `plt.style`.
   See issue 163: https://github.com/garrettj403/SciencePlots/issues/163
 
-v2.2.1 (21-Feb-2026)
+v2.2.1 (25-Feb-2026)
 ====================
 Maintenance
 -----------
