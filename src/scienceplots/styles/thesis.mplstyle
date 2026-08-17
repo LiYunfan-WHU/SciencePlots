@@ -29,3 +29,9 @@ xtick.top : False
 xtick.labeltop : False
 ytick.right : False
 ytick.labelright : False
+
+# 刻度线长度：主、次刻度统一 3 pt（覆盖 science 默认的 minor 1.5）
+xtick.major.size : 3
+xtick.minor.size : 3
+ytick.major.size : 3
+ytick.minor.size : 3
