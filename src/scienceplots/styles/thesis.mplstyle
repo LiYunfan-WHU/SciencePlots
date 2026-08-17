@@ -22,3 +22,10 @@ ytick.labelsize : 8
 legend.fontsize : 8
 
 savefig.dpi : 600
+
+# 刻度线朝内（继承 science 默认 direction=in）；
+# 顶部与右侧不显示刻度数字，故关闭对应刻度线（仅底部与左侧刻度）
+xtick.top : False
+xtick.labeltop : False
+ytick.right : False
+ytick.labelright : False
