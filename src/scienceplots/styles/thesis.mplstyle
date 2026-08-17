@@ -6,9 +6,19 @@
 # 覆盖项：
 #   - 字体：无衬线，中英混排优先微软雅黑，缺失回退黑体，拉丁回退 Arial
 #   - 中文负号正常显示
+#   - 数据图默认字号（示意图/流程图脚本可自行覆盖）
 #   - 导出 600 dpi（配合脚本只导出 PNG，不再导出 SVG）
 
 font.family : sans-serif
 font.sans-serif : Microsoft YaHei, SimHei, Arial
 axes.unicode_minus : False
+
+# 数据图默认字号
+font.size : 8
+axes.titlesize : 9
+axes.labelsize : 9
+xtick.labelsize : 8
+ytick.labelsize : 8
+legend.fontsize : 8
+
 savefig.dpi : 600
