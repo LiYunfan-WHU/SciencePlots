@@ -1,0 +1,53 @@
+# General-purpose publication style maintained in the LiYunfan-WHU fork.
+#
+# Use after the SciencePlots base and no-latex styles:
+#   plt.style.use(["science", "no-latex", "publication"])
+
+# Sans-serif typography suitable for compact journal figures.
+font.family : sans-serif
+font.sans-serif : Arial, Liberation Sans, DejaVu Sans
+mathtext.fontset : custom
+mathtext.rm : Arial
+mathtext.it : Arial:italic
+mathtext.bf : Arial:bold
+mathtext.sf : Arial
+mathtext.fallback : stixsans
+axes.unicode_minus : False
+
+# ColorBrewer Set1 categorical palette in red, blue, green order.
+axes.prop_cycle : cycler('color', [(0.894, 0.102, 0.110), (0.216, 0.494, 0.722), (0.302, 0.686, 0.290), (0.596, 0.306, 0.643), (1.000, 0.498, 0.000), (1.000, 1.000, 0.200), (0.651, 0.337, 0.157), (0.969, 0.506, 0.749), (0.600, 0.600, 0.600)])
+
+# Compact type hierarchy.
+font.size : 7
+axes.titlesize : 8
+axes.labelsize : 7
+axes.labelpad : 4.0
+xtick.labelsize : 6.5
+ytick.labelsize : 6.5
+legend.fontsize : 6.5
+legend.handlelength : 2.0
+
+# PNG-oriented export defaults.
+savefig.dpi : 600
+savefig.facecolor : white
+savefig.edgecolor : white
+savefig.bbox : tight
+savefig.pad_inches : 0.03
+
+# Lines, markers, and inward major ticks.
+axes.linewidth : 0.5
+lines.linewidth : 1.0
+lines.markersize : 4.0
+lines.markeredgewidth : 0.5
+xtick.direction : in
+ytick.direction : in
+xtick.top : False
+ytick.right : False
+xtick.minor.visible : False
+ytick.minor.visible : False
+xtick.major.size : 2.5
+ytick.major.size : 2.5
+xtick.major.pad : 3.5
+ytick.major.pad : 3.5
+xtick.major.width : 0.5
+ytick.major.width : 0.5
