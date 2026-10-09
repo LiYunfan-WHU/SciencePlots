@@ -104,26 +104,31 @@ with plt.style.context('science'):
 Fork-specific Styles
 --------------------
 
-The `LiYunfan-WHU` fork includes two additional styles for local research
-workflows. Apply either style after `science` and `no-latex` so its settings
+The `LiYunfan-WHU` fork includes three additional styles for local research
+workflows. Apply any of them after `science` and `no-latex` so its settings
 override the base defaults:
 
 ```python
 import matplotlib.pyplot as plt
 import scienceplots
 
-# Compact 600 dpi figures for journal manuscripts.
-plt.style.use(["science", "no-latex", "publication"])
+# English journal / conference manuscripts: compact 7 pt, Set1 palette, 600 dpi.
+plt.style.use(["science", "no-latex", "paper-en"])
 
-# Chinese and English figures for the WHU thesis workflow.
-# plt.style.use(["science", "no-latex", "thesis"])
+# Chinese master's thesis: bilingual typography, 600 dpi.
+# plt.style.use(["science", "no-latex", "thesis-cn-master"])
+
+# Chinese doctoral dissertation: larger typography, grid, 300 dpi.
+# plt.style.use(["science", "no-latex", "thesis-cn-doctor"])
 ```
 
-`publication` provides 7 pt sans-serif typography, the ColorBrewer Set1
+`paper-en` provides 7 pt sans-serif typography, the ColorBrewer Set1
 categorical palette, 0.5 pt axes, 4 pt markers, inward major ticks, and 600 dpi
-PNG export defaults. `thesis` provides the larger bilingual typography used by
-the local thesis workflow. Project-specific layout and semantic color mappings
-remain in each research repository.
+PNG export defaults. `thesis-cn-master` provides the larger bilingual
+typography used by the Chinese master's thesis workflow. `thesis-cn-doctor`
+provides the larger Chinese typography, a light grid, and 300 dpi export used
+by the Chinese doctoral dissertation workflow. Project-specific layout and
+semantic color mappings remain in each research repository.
 
 Examples
 --------

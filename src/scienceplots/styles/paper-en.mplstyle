@@ -1,7 +1,7 @@
-# General-purpose publication style maintained in the LiYunfan-WHU fork.
+# English journal/conference paper style maintained in the LiYunfan-WHU fork.
 #
 # Use after the SciencePlots base and no-latex styles:
-#   plt.style.use(["science", "no-latex", "publication"])
+#   plt.style.use(["science", "no-latex", "paper-en"])
 
 # Sans-serif typography suitable for compact journal figures.
 font.family : sans-serif

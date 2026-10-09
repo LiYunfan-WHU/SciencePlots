@@ -1,7 +1,7 @@
-# WHU 骨科学位论文绘图规范（thesis.mplstyle）
+# 中文学位论文（硕士）绘图规范（thesis-cn-master.mplstyle）
 #
 # 使用方式（在 science + no-latex 基础上叠加）：
-#   plt.style.use(["science", "no-latex", "thesis"])
+#   plt.style.use(["science", "no-latex", "thesis-cn-master"])
 #
 # 覆盖项：
 #   - 字体：无衬线，中英混排优先微软雅黑，缺失回退黑体，拉丁回退 Arial
